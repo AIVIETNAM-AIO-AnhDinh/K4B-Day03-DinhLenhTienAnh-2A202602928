@@ -1,0 +1,477 @@
+{
+  "metadata": {
+    "source": "MOCK DATA - Dữ liệu giả lập phục vụ Lab K4 Day 03, KHÔNG phải dữ liệu sinh viên thật của VinUniversity",
+    "university": "VinUniversity (VinUni)",
+    "academic_year": "2026-2027",
+    "semester": "Fall 2026",
+    "gpa_scale": 4.0,
+    "generated_at": "2026-09-13",
+    "total_students": 23,
+    "consistency_note": "Trường 'advisor' luôn là giảng viên có trong mock_courses_info.json; 'program_id' tham chiếu mock_programs_info.json; 'enrolled_courses' tham chiếu course_id trong mock_courses_info.json.",
+    "status_values": [
+      "Đang học",
+      "Bảo lưu",
+      "Đã tốt nghiệp",
+      "Đình chỉ học tập"
+    ],
+    "academic_standing_values": [
+      "Danh sách khen thưởng",
+      "Tốt",
+      "Cảnh báo học vụ",
+      "Đình chỉ"
+    ],
+    "reserved_not_found_id": "SV9999999 cố ý KHÔNG tồn tại để kiểm thử nhánh NOT_FOUND (TC05)."
+  },
+  "students": {
+    "SV2026001": {
+      "student_id": "SV2026001",
+      "full_name": "Nguyễn Văn An",
+      "class": "AI-K4",
+      "gpa": 3.85,
+      "email": "an.nv@vinuni.edu.vn",
+      "status": "Đang học",
+      "advisor": "PGS.TS Nguyễn Văn A",
+      "program_id": "BS-CS",
+      "college": "CECS",
+      "intake_year": 2026,
+      "year_of_study": 1,
+      "credits_completed": 16,
+      "enrolled_courses": [
+        "COMP1010",
+        "MATH2010",
+        "CORE1100"
+      ],
+      "academic_standing": "Danh sách khen thưởng",
+      "scholarship_id": "SCH-MERIT-70"
+    },
+    "SV2026002": {
+      "student_id": "SV2026002",
+      "full_name": "Trần Thị Bình",
+      "class": "AI-K4",
+      "gpa": 3.6,
+      "email": "binh.tt@vinuni.edu.vn",
+      "status": "Đang học",
+      "advisor": "TS. Lê Thị B",
+      "program_id": "BS-DSAI",
+      "college": "CECS",
+      "intake_year": 2026,
+      "year_of_study": 1,
+      "credits_completed": 16,
+      "enrolled_courses": [
+        "COMP1010",
+        "MATH2010",
+        "CORE1100"
+      ],
+      "academic_standing": "Tốt",
+      "scholarship_id": "SCH-MERIT-50"
+    },
+    "SV2026003": {
+      "student_id": "SV2026003",
+      "full_name": "Lê Minh Khang",
+      "class": "CS-K4",
+      "gpa": 3.2,
+      "email": "khang.lm@vinuni.edu.vn",
+      "status": "Đang học",
+      "advisor": "TS. Phạm Minh Cường",
+      "program_id": "BS-CS",
+      "college": "CECS",
+      "intake_year": 2026,
+      "year_of_study": 1,
+      "credits_completed": 15,
+      "enrolled_courses": [
+        "COMP1010",
+        "MATH2010"
+      ],
+      "academic_standing": "Tốt",
+      "scholarship_id": null
+    },
+    "SV2026004": {
+      "student_id": "SV2026004",
+      "full_name": "Phạm Thu Hà",
+      "class": "NURS-K4",
+      "gpa": 3.45,
+      "email": "ha.pt@vinuni.edu.vn",
+      "status": "Đang học",
+      "advisor": "ThS. Bùi Ngọc Lan",
+      "program_id": "BS-NURS",
+      "college": "CHS",
+      "intake_year": 2026,
+      "year_of_study": 1,
+      "credits_completed": 18,
+      "enrolled_courses": [
+        "MED1500",
+        "CORE1100"
+      ],
+      "academic_standing": "Tốt",
+      "scholarship_id": "SCH-NEED"
+    },
+    "SV2026005": {
+      "student_id": "SV2026005",
+      "full_name": "Đỗ Gia Bảo",
+      "class": "MED-K4",
+      "gpa": 3.7,
+      "email": "bao.dg@vinuni.edu.vn",
+      "status": "Đang học",
+      "advisor": "GS.TS Lý Thanh Hà",
+      "program_id": "MD-MED",
+      "college": "CHS",
+      "intake_year": 2026,
+      "year_of_study": 1,
+      "credits_completed": 20,
+      "enrolled_courses": [
+        "MED1500",
+        "CORE1100"
+      ],
+      "academic_standing": "Danh sách khen thưởng",
+      "scholarship_id": "SCH-ELITE"
+    },
+    "SV2025001": {
+      "student_id": "SV2025001",
+      "full_name": "Nguyễn Hoàng Long",
+      "class": "CS-K3",
+      "gpa": 3.55,
+      "email": "long.nh@vinuni.edu.vn",
+      "status": "Đang học",
+      "advisor": "TS. Lê Thị B",
+      "program_id": "BS-CS",
+      "college": "CECS",
+      "intake_year": 2025,
+      "year_of_study": 2,
+      "credits_completed": 48,
+      "enrolled_courses": [
+        "COMP2030",
+        "COMP2040",
+        "MATH2020"
+      ],
+      "academic_standing": "Tốt",
+      "scholarship_id": "SCH-MERIT-50"
+    },
+    "SV2025002": {
+      "student_id": "SV2025002",
+      "full_name": "Vũ Khánh Linh",
+      "class": "BANA-K3",
+      "gpa": 3.4,
+      "email": "linh.vk@vinuni.edu.vn",
+      "status": "Đang học",
+      "advisor": "TS. Trần Quốc Bảo",
+      "program_id": "BS-BANA",
+      "college": "CBM",
+      "intake_year": 2025,
+      "year_of_study": 2,
+      "credits_completed": 45,
+      "enrolled_courses": [
+        "MATH2020",
+        "BUSA1200",
+        "COMP2040"
+      ],
+      "academic_standing": "Tốt",
+      "scholarship_id": null
+    },
+    "SV2025003": {
+      "student_id": "SV2025003",
+      "full_name": "Trịnh Đức Anh",
+      "class": "EE-K3",
+      "gpa": 2.95,
+      "email": "anh.td@vinuni.edu.vn",
+      "status": "Đang học",
+      "advisor": "TS. Vũ Quang Huy",
+      "program_id": "BS-EE",
+      "college": "CECS",
+      "intake_year": 2025,
+      "year_of_study": 2,
+      "credits_completed": 44,
+      "enrolled_courses": [
+        "ENGR2100",
+        "MATH2010"
+      ],
+      "academic_standing": "Tốt",
+      "scholarship_id": null
+    },
+    "SV2025004": {
+      "student_id": "SV2025004",
+      "full_name": "Hoàng Mai Chi",
+      "class": "HOSP-K3",
+      "gpa": 3.3,
+      "email": "chi.hm@vinuni.edu.vn",
+      "status": "Đang học",
+      "advisor": "TS. Đặng Phương Linh",
+      "program_id": "BS-HOSP",
+      "college": "CBM",
+      "intake_year": 2025,
+      "year_of_study": 2,
+      "credits_completed": 42,
+      "enrolled_courses": [
+        "BUSA1200",
+        "CORE2200"
+      ],
+      "academic_standing": "Tốt",
+      "scholarship_id": "SCH-NEED"
+    },
+    "SV2025005": {
+      "student_id": "SV2025005",
+      "full_name": "Lý Tuấn Kiệt",
+      "class": "ME-K3",
+      "gpa": 2.45,
+      "email": "kiet.lt@vinuni.edu.vn",
+      "status": "Đang học",
+      "advisor": "TS. Vũ Quang Huy",
+      "program_id": "BS-ME",
+      "college": "CECS",
+      "intake_year": 2025,
+      "year_of_study": 2,
+      "credits_completed": 38,
+      "enrolled_courses": [
+        "ENGR2100"
+      ],
+      "academic_standing": "Cảnh báo học vụ",
+      "scholarship_id": null
+    },
+    "SV2024001": {
+      "student_id": "SV2024001",
+      "full_name": "Đặng Quốc Huy",
+      "class": "CS-K2",
+      "gpa": 3.9,
+      "email": "huy.dq@vinuni.edu.vn",
+      "status": "Đang học",
+      "advisor": "PGS.TS Nguyễn Văn A",
+      "program_id": "BS-CS",
+      "college": "CECS",
+      "intake_year": 2024,
+      "year_of_study": 3,
+      "credits_completed": 82,
+      "enrolled_courses": [
+        "COMP3050",
+        "COMP3070",
+        "COMP2040"
+      ],
+      "academic_standing": "Danh sách khen thưởng",
+      "scholarship_id": "SCH-ELITE"
+    },
+    "SV2024002": {
+      "student_id": "SV2024002",
+      "full_name": "Nguyễn Ngọc Trâm",
+      "class": "DSAI-K2",
+      "gpa": 3.75,
+      "email": "tram.nn@vinuni.edu.vn",
+      "status": "Đang học",
+      "advisor": "TS. Lê Thị B",
+      "program_id": "BS-DSAI",
+      "college": "CECS",
+      "intake_year": 2024,
+      "year_of_study": 3,
+      "credits_completed": 80,
+      "enrolled_courses": [
+        "COMP3070",
+        "MATH2020"
+      ],
+      "academic_standing": "Danh sách khen thưởng",
+      "scholarship_id": "SCH-MERIT-70"
+    },
+    "SV2024003": {
+      "student_id": "SV2024003",
+      "full_name": "Phan Bảo Ngọc",
+      "class": "PSY-K2",
+      "gpa": 3.5,
+      "email": "ngoc.pb@vinuni.edu.vn",
+      "status": "Đang học",
+      "advisor": "TS. Đặng Phương Linh",
+      "program_id": "BA-PSY",
+      "college": "CAS",
+      "intake_year": 2024,
+      "year_of_study": 3,
+      "credits_completed": 78,
+      "enrolled_courses": [
+        "CORE1100",
+        "MATH2020"
+      ],
+      "academic_standing": "Tốt",
+      "scholarship_id": null
+    },
+    "SV2024004": {
+      "student_id": "SV2024004",
+      "full_name": "Bùi Anh Tuấn",
+      "class": "BBA-K2",
+      "gpa": 3.1,
+      "email": "tuan.ba@vinuni.edu.vn",
+      "status": "Bảo lưu",
+      "advisor": "TS. Trần Quốc Bảo",
+      "program_id": "BBA-MGT",
+      "college": "CBM",
+      "intake_year": 2024,
+      "year_of_study": 3,
+      "credits_completed": 70,
+      "enrolled_courses": [],
+      "academic_standing": "Tốt",
+      "scholarship_id": null
+    },
+    "SV2024005": {
+      "student_id": "SV2024005",
+      "full_name": "Cao Minh Nhật",
+      "class": "ME-K2",
+      "gpa": 1.85,
+      "email": "nhat.cm@vinuni.edu.vn",
+      "status": "Đình chỉ học tập",
+      "advisor": "TS. Vũ Quang Huy",
+      "program_id": "BS-ME",
+      "college": "CECS",
+      "intake_year": 2024,
+      "year_of_study": 3,
+      "credits_completed": 58,
+      "enrolled_courses": [],
+      "academic_standing": "Đình chỉ",
+      "scholarship_id": null
+    },
+    "SV2023001": {
+      "student_id": "SV2023001",
+      "full_name": "Trần Hải Đăng",
+      "class": "CS-K1",
+      "gpa": 3.65,
+      "email": "dang.th@vinuni.edu.vn",
+      "status": "Đang học",
+      "advisor": "TS. Đỗ Hoàng Nam",
+      "program_id": "BS-CS",
+      "college": "CECS",
+      "intake_year": 2023,
+      "year_of_study": 4,
+      "credits_completed": 112,
+      "enrolled_courses": [
+        "COMP4090",
+        "COMP4900"
+      ],
+      "academic_standing": "Tốt",
+      "scholarship_id": "SCH-MERIT-50"
+    },
+    "SV2023002": {
+      "student_id": "SV2023002",
+      "full_name": "Nguyễn Thùy Dương",
+      "class": "BANA-K1",
+      "gpa": 3.35,
+      "email": "duong.nt@vinuni.edu.vn",
+      "status": "Đang học",
+      "advisor": "TS. Trần Quốc Bảo",
+      "program_id": "BS-BANA",
+      "college": "CBM",
+      "intake_year": 2023,
+      "year_of_study": 4,
+      "credits_completed": 108,
+      "enrolled_courses": [
+        "BUSA3400"
+      ],
+      "academic_standing": "Tốt",
+      "scholarship_id": null
+    },
+    "SV2023003": {
+      "student_id": "SV2023003",
+      "full_name": "Lê Quang Vinh",
+      "class": "EE-K1",
+      "gpa": 3.05,
+      "email": "vinh.lq@vinuni.edu.vn",
+      "status": "Đang học",
+      "advisor": "TS. Vũ Quang Huy",
+      "program_id": "BS-EE",
+      "college": "CECS",
+      "intake_year": 2023,
+      "year_of_study": 4,
+      "credits_completed": 105,
+      "enrolled_courses": [
+        "ENGR2100",
+        "COMP1010"
+      ],
+      "academic_standing": "Tốt",
+      "scholarship_id": null
+    },
+    "SV2023004": {
+      "student_id": "SV2023004",
+      "full_name": "Hồ Khánh Ngân",
+      "class": "NURS-K1",
+      "gpa": 3.58,
+      "email": "ngan.hk@vinuni.edu.vn",
+      "status": "Đang học",
+      "advisor": "ThS. Bùi Ngọc Lan",
+      "program_id": "BS-NURS",
+      "college": "CHS",
+      "intake_year": 2023,
+      "year_of_study": 4,
+      "credits_completed": 118,
+      "enrolled_courses": [
+        "NURS2300"
+      ],
+      "academic_standing": "Tốt",
+      "scholarship_id": "SCH-NEED"
+    },
+    "SV2022001": {
+      "student_id": "SV2022001",
+      "full_name": "Mai Thanh Tùng",
+      "class": "CS-K0",
+      "gpa": 3.72,
+      "email": "tung.mt@vinuni.edu.vn",
+      "status": "Đã tốt nghiệp",
+      "advisor": "PGS.TS Nguyễn Văn A",
+      "program_id": "BS-CS",
+      "college": "CECS",
+      "intake_year": 2022,
+      "year_of_study": 4,
+      "credits_completed": 132,
+      "enrolled_courses": [],
+      "academic_standing": "Tốt",
+      "scholarship_id": null
+    },
+    "SV2022002": {
+      "student_id": "SV2022002",
+      "full_name": "Đinh Khánh Vy",
+      "class": "MED-K0",
+      "gpa": 3.8,
+      "email": "vy.dk@vinuni.edu.vn",
+      "status": "Đang học",
+      "advisor": "GS.TS Lý Thanh Hà",
+      "program_id": "MD-MED",
+      "college": "CHS",
+      "intake_year": 2022,
+      "year_of_study": 5,
+      "credits_completed": 168,
+      "enrolled_courses": [],
+      "academic_standing": "Danh sách khen thưởng",
+      "scholarship_id": "SCH-MERIT-70"
+    },
+    "HV2026001": {
+      "student_id": "HV2026001",
+      "full_name": "Ngô Việt Hoàng",
+      "class": "MSCS-K1",
+      "gpa": 3.55,
+      "email": "hoang.nv@vinuni.edu.vn",
+      "status": "Đang học",
+      "advisor": "TS. Đỗ Hoàng Nam",
+      "program_id": "MSC-CS",
+      "college": "CECS",
+      "intake_year": 2026,
+      "year_of_study": 1,
+      "credits_completed": 12,
+      "enrolled_courses": [
+        "COMP4090",
+        "COMP3070"
+      ],
+      "academic_standing": "Tốt",
+      "scholarship_id": null
+    },
+    "HV2026002": {
+      "student_id": "HV2026002",
+      "full_name": "Trương Mỹ Duyên",
+      "class": "MBA-K1",
+      "gpa": 3.25,
+      "email": "duyen.tm@vinuni.edu.vn",
+      "status": "Đang học",
+      "advisor": "TS. Trần Quốc Bảo",
+      "program_id": "MBA-EXE",
+      "college": "CBM",
+      "intake_year": 2026,
+      "year_of_study": 1,
+      "credits_completed": 9,
+      "enrolled_courses": [
+        "BUSA3400",
+        "BUSA1200"
+      ],
+      "academic_standing": "Tốt",
+      "scholarship_id": null
+    }
+  }
+}

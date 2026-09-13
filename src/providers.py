@@ -52,12 +52,18 @@ class MockOfflineProvider(BaseLLMProvider):
                 "arguments": {"student_id": "SV2026001"},
                 "thought": "Người dùng muốn tra cứu thông tin học vụ của sinh viên SV2026001. Tôi sẽ gọi tool academic_query."
             }
+        elif any(w in prompt_lower for w in ["học phần", "môn học", "tín chỉ", "khóa học"]):
+                    return {"type": "tool_call", "tool_name": "course_lookup",
+                            "arguments": {"keyword": "học máy"},
+                            "thought": "Người dùng hỏi về học phần. Tôi sẽ gọi tool course_lookup."}
         else:
             return {
                 "type": "text",
                 "content": f"[Mock Agent Response]: Xin chào! Quy chế học vụ VinUni yêu cầu sinh viên tích lũy tối thiểu 120 tín chỉ và duy trì GPA trên 2.0 để tốt nghiệp.",
                 "thought": "Câu hỏi chung về quy chế học vụ, trả lời trực tiếp không cần gọi Tool."
             }
+        
+
 
 
 class GeminiProvider(BaseLLMProvider):

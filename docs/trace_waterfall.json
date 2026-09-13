@@ -3,9 +3,9 @@
     "step": 1,
     "query": "Chào bạn, bạn có thể giới thiệu quy chế học vụ cơ bản của Đại học VinUni không?",
     "action_type": "FINAL_ANSWER",
-    "thought": "Câu hỏi chung về quy chế học vụ, trả lời trực tiếp không cần gọi Tool.",
-    "output": "[Mock Agent Response]: Xin chào! Quy chế học vụ VinUni yêu cầu sinh viên tích lũy tối thiểu 120 tín chỉ và duy trì GPA trên 2.0 để tốt nghiệp.",
-    "latency_ms": 2845.93
+    "thought": "Gemini phản hồi trực tiếp bằng văn bản (không cần gọi công cụ).",
+    "output": "Chào bạn! Rất vui được hỗ trợ bạn.\n\nQuy chế học vụ tại Đại học VinUni được xây dựng dựa trên các tiêu chuẩn quốc tế, nhằm đảm bảo môi trường học tập công bằng, minh bạch và thúc đẩy sự phát triển toàn diện của sinh viên. Dưới đây là một số điểm cơ bản trong quy chế học vụ mà bạn cần lưu ý:\n\n### 1. Hệ thống tín chỉ và Đánh giá kết quả\n*   **Hệ thống tín chỉ:** VinUni áp dụng hệ thống tín chỉ theo chuẩn quốc tế. Mỗi học phần sẽ có số tín chỉ tương ứng với khối lượng công việc học tập.\n*   **Thang điểm:** Kết quả học tập thường được đánh giá theo thang điểm chữ (A, A-, B+, B, B-, C+, C, D, F) và quy đổi sang điểm trung bình học tập (GPA) trên thang điểm 4.0.\n*   **Đánh giá:** Điểm số của mỗi môn học thường bao gồm nhiều thành phần: chuyên cần, bài tập về nhà, bài kiểm tra giữa kỳ, dự án nhóm và bài thi cuối kỳ.\n\n### 2. Yêu cầu về học tập\n*   **GPA tối thiểu:** Sinh viên cần duy trì mức GPA tối thiểu theo quy định của từng chương trình đào tạo để đảm bảo tình trạng học tập tốt (Good Standing). Nếu GPA rơi xuống dưới ngưỡng quy định, sinh viên có thể bị đặt vào tình trạng \"Cảnh báo học vụ\" (Academic Probation).\n*   **Sĩ số và chuyên cần:** Việc tham gia đầy đủ các buổi học là bắt buộc. Tỷ lệ chuyên cần thấp có thể ảnh hưởng trực tiếp đến điểm số hoặc quyền được tham gia thi cuối kỳ.\n\n### 3. Liêm chính học thuật (Academic Integrity)\nĐây là giá trị cốt lõi tại VinUni. Mọi hành vi gian lận trong thi cử, đạo văn (plagiarism) hoặc làm giả hồ sơ đều bị xử lý rất nghiêm khắc theo quy định về kỷ luật học đường, có thể dẫn đến hình thức cao nhất là buộc thôi học.\n\n### 4. Cố vấn học tập (Academic Advisor)\nMỗi sinh viên VinUni đều được phân công một Cố vấn học tập. Đây là người đồng hành, hỗ trợ bạn trong việc:\n*   Lên kế hoạch học tập và chọn môn học.\n*   Giải đáp các thắc mắc về quy chế, thủ tục hành chính.\n*   Định hướng phát triển nghề nghiệp và giải quyết các khó khăn trong quá trình học tập.\n\n### 5. Thay đổi chương trình học\nSinh viên có quyền đăng ký thay đổi chuyên ngành hoặc chuyển đổi chương trình học nếu đáp ứng đủ các điều kiện về điểm số và quy trình xét duyệt của nhà trường.\n\n---\n**Lưu ý:** Các quy định chi tiết có thể thay đổi tùy theo từng năm học và chương trình đào tạo cụ thể. Để có thông tin chính xác nhất cho trường hợp cá nhân của bạn, bạn nên:\n1.  Tham khảo **Sổ tay sinh viên (Student Handbook)** trên cổng thông tin nội bộ của VinUni.\n2.  Liên hệ trực tiếp với **Phòng Đào tạo** hoặc **Cố vấn học tập** của bạn.\n\nNếu bạn cần tra cứu thông tin cụ thể về học phần hoặc muốn đặt lịch hẹn với Cố vấn học tập, hãy cho tôi biết mã sinh viên của bạn nhé! Tôi luôn sẵn sàng hỗ trợ.",
+    "latency_ms": 3580.27
   },
   {
     "step": 1,
@@ -15,15 +15,322 @@
     "arguments": {
       "student_id": "SV2026001"
     },
-    "observation": {},
-    "latency_ms": 799.12
+    "observation": {
+      "status": "SUCCESS",
+      "student_id": "SV2026001",
+      "data": {
+        "student_id": "SV2026001",
+        "full_name": "Nguyễn Văn An",
+        "class": "AI-K4",
+        "gpa": 3.85,
+        "email": "an.nv@vinuni.edu.vn",
+        "status": "Đang học",
+        "advisor": "PGS.TS Nguyễn Văn A",
+        "program_id": "BS-CS",
+        "college": "CECS",
+        "intake_year": 2026,
+        "year_of_study": 1,
+        "credits_completed": 16,
+        "enrolled_courses": [
+          "COMP1010",
+          "MATH2010",
+          "CORE1100"
+        ],
+        "academic_standing": "Danh sách khen thưởng",
+        "scholarship_id": "SCH-MERIT-70"
+      }
+    },
+    "latency_ms": 1124.13
   },
   {
     "step": 2,
     "query": "Hãy tra cứu thông tin học vụ của sinh viên SV2026001.",
     "action_type": "FINAL_ANSWER",
     "thought": "Tổng hợp kết quả từ MCP Server thành công.",
-    "output": "Chưa thể trả lời chi tiết do chưa nhận được dữ liệu từ MCP Server (hãy hoàn thành TODO 2.1).",
+    "output": "Kết quả tra cứu cho sinh viên SV2026001 (Nguyễn Văn An): Lớp AI-K4, GPA: 3.85, Email: an.nv@vinuni.edu.vn, Trạng thái: Đang học, Cố vấn: PGS.TS Nguyễn Văn A.",
+    "latency_ms": 10.0
+  },
+  {
+    "step": 1,
+    "query": "Hãy đặt lịch hẹn tư vấn học vụ cho sinh viên SV2026001.",
+    "action_type": "TOOL_EXECUTION",
+    "tool_name": "academic_query",
+    "arguments": {
+      "student_id": "SV2026001"
+    },
+    "observation": {
+      "status": "SUCCESS",
+      "student_id": "SV2026001",
+      "data": {
+        "student_id": "SV2026001",
+        "full_name": "Nguyễn Văn An",
+        "class": "AI-K4",
+        "gpa": 3.85,
+        "email": "an.nv@vinuni.edu.vn",
+        "status": "Đang học",
+        "advisor": "PGS.TS Nguyễn Văn A",
+        "program_id": "BS-CS",
+        "college": "CECS",
+        "intake_year": 2026,
+        "year_of_study": 1,
+        "credits_completed": 16,
+        "enrolled_courses": [
+          "COMP1010",
+          "MATH2010",
+          "CORE1100"
+        ],
+        "academic_standing": "Danh sách khen thưởng",
+        "scholarship_id": "SCH-MERIT-70"
+      }
+    },
+    "latency_ms": 1089.18
+  },
+  {
+    "step": 2,
+    "query": "Hãy đặt lịch hẹn tư vấn học vụ cho sinh viên SV2026001.",
+    "action_type": "FINAL_ANSWER",
+    "thought": "Tổng hợp kết quả từ MCP Server thành công.",
+    "output": "Kết quả tra cứu cho sinh viên SV2026001 (Nguyễn Văn An): Lớp AI-K4, GPA: 3.85, Email: an.nv@vinuni.edu.vn, Trạng thái: Đang học, Cố vấn: PGS.TS Nguyễn Văn A.",
+    "latency_ms": 10.0
+  },
+  {
+    "step": 1,
+    "query": "Hãy tra cứu thông tin học vụ của sinh viên SV2026001, tìm kiếm thông tin cố vấn học tập của sinh viên và đặt lịch hẹn với cố vấn này cho sinh viên vào '14:00 15/09/2026'.",
+    "action_type": "TOOL_EXECUTION",
+    "tool_name": "academic_query",
+    "arguments": {
+      "student_id": "SV2026001"
+    },
+    "observation": {
+      "status": "SUCCESS",
+      "student_id": "SV2026001",
+      "data": {
+        "student_id": "SV2026001",
+        "full_name": "Nguyễn Văn An",
+        "class": "AI-K4",
+        "gpa": 3.85,
+        "email": "an.nv@vinuni.edu.vn",
+        "status": "Đang học",
+        "advisor": "PGS.TS Nguyễn Văn A",
+        "program_id": "BS-CS",
+        "college": "CECS",
+        "intake_year": 2026,
+        "year_of_study": 1,
+        "credits_completed": 16,
+        "enrolled_courses": [
+          "COMP1010",
+          "MATH2010",
+          "CORE1100"
+        ],
+        "academic_standing": "Danh sách khen thưởng",
+        "scholarship_id": "SCH-MERIT-70"
+      }
+    },
+    "latency_ms": 1141.85
+  },
+  {
+    "step": 2,
+    "query": "Hãy tra cứu thông tin học vụ của sinh viên SV2026001, tìm kiếm thông tin cố vấn học tập của sinh viên và đặt lịch hẹn với cố vấn này cho sinh viên vào '14:00 15/09/2026'.",
+    "action_type": "FINAL_ANSWER",
+    "thought": "Tổng hợp kết quả từ MCP Server thành công.",
+    "output": "Kết quả tra cứu cho sinh viên SV2026001 (Nguyễn Văn An): Lớp AI-K4, GPA: 3.85, Email: an.nv@vinuni.edu.vn, Trạng thái: Đang học, Cố vấn: PGS.TS Nguyễn Văn A.",
+    "latency_ms": 10.0
+  },
+  {
+    "step": 1,
+    "query": "Hãy tra cứu thông tin học vụ của sinh viên SV9999999.",
+    "action_type": "TOOL_EXECUTION",
+    "tool_name": "academic_query",
+    "arguments": {
+      "student_id": "SV9999999"
+    },
+    "observation": {
+      "status": "NOT_FOUND",
+      "message": "Không tìm thấy dữ liệu sinh viên có mã 'SV9999999'"
+    },
+    "latency_ms": 1007.55
+  },
+  {
+    "step": 2,
+    "query": "Hãy tra cứu thông tin học vụ của sinh viên SV9999999.",
+    "action_type": "FINAL_ANSWER",
+    "thought": "Tổng hợp kết quả từ MCP Server thành công.",
+    "output": "Không tìm thấy dữ liệu sinh viên có mã 'SV9999999'",
+    "latency_ms": 10.0
+  },
+  {
+    "step": 1,
+    "query": "Hãy tra cứu thông tin học vụ của sinh viên SV2026002, sau đó liệt kê các học phần trong học kỳ Fall 2026 do chính cố vấn học tập của sinh viên này phụ trách, và cho biết học phần nào đã hết chỗ đăng ký.",
+    "action_type": "TOOL_EXECUTION",
+    "tool_name": "academic_query",
+    "arguments": {
+      "student_id": "SV2026002"
+    },
+    "observation": {
+      "status": "SUCCESS",
+      "student_id": "SV2026002",
+      "data": {
+        "student_id": "SV2026002",
+        "full_name": "Trần Thị Bình",
+        "class": "AI-K4",
+        "gpa": 3.6,
+        "email": "binh.tt@vinuni.edu.vn",
+        "status": "Đang học",
+        "advisor": "TS. Lê Thị B",
+        "program_id": "BS-DSAI",
+        "college": "CECS",
+        "intake_year": 2026,
+        "year_of_study": 1,
+        "credits_completed": 16,
+        "enrolled_courses": [
+          "COMP1010",
+          "MATH2010",
+          "CORE1100"
+        ],
+        "academic_standing": "Tốt",
+        "scholarship_id": "SCH-MERIT-50"
+      }
+    },
+    "latency_ms": 961.37
+  },
+  {
+    "step": 2,
+    "query": "Hãy tra cứu thông tin học vụ của sinh viên SV2026002, sau đó liệt kê các học phần trong học kỳ Fall 2026 do chính cố vấn học tập của sinh viên này phụ trách, và cho biết học phần nào đã hết chỗ đăng ký.",
+    "action_type": "FINAL_ANSWER",
+    "thought": "Tổng hợp kết quả từ MCP Server thành công.",
+    "output": "Kết quả tra cứu cho sinh viên SV2026002 (Trần Thị Bình): Lớp AI-K4, GPA: 3.6, Email: binh.tt@vinuni.edu.vn, Trạng thái: Đang học, Cố vấn: TS. Lê Thị B.",
+    "latency_ms": 10.0
+  },
+  {
+    "step": 1,
+    "query": "Em là học sinh lớp 12, điểm trung bình THPT 9.2 và IELTS 7.5. Em học rất giỏi Toán, đam mê lập trình và trí tuệ nhân tạo, thích tự làm việc độc lập hơn là giao tiếp nhiều, và không thích thí nghiệm trong phòng lab. Gia đình em chi trả được tối đa 1 tỷ đồng học phí mỗi năm. Em nên chọn ngành nào ở VinUni? Hãy gợi ý 3 ngành phù hợp nhất kèm lý do cụ thể.",
+    "action_type": "TOOL_EXECUTION",
+    "tool_name": "program_recommend",
+    "arguments": {
+      "interests": [
+        "technology",
+        "ai",
+        "software",
+        "data"
+      ],
+      "budget_per_year": 1000000000,
+      "aptitude_profile": {
+        "lab_work": 1,
+        "math_intensity": 5,
+        "people_interaction": 2,
+        "coding_intensity": 5
+      },
+      "top_n": 3,
+      "ielts": 7.5,
+      "entry_level": "High School",
+      "high_school_gpa": 9.2
+    },
+    "observation": {
+      "status": "SUCCESS",
+      "count": 3,
+      "eligible_count": 9,
+      "message": "Gợi ý 3 chương trình phù hợp nhất: #1 Cử nhân Khoa học Máy tính (BS-CS, độ phù hợp 97%) - Khớp lĩnh vực quan tâm: ai, data, software, technology; #2 Cử nhân Khoa học Dữ liệu và Trí tuệ Nhân tạo (BS-DSAI, độ phù hợp 71%) - Khớp lĩnh vực quan tâm: ai, data, technology; #3 Cử nhân Phân tích Kinh doanh (BS-BANA, độ phù hợp 52%) - Khớp lĩnh vực quan tâm: data, technology.",
+      "programs": [
+        {
+          "program_id": "BS-CS",
+          "name_vi": "Cử nhân Khoa học Máy tính",
+          "name_en": "Bachelor of Science in Computer Science",
+          "college": "CECS",
+          "degree_level": "Bachelor",
+          "duration_years": 4,
+          "tuition_per_year": 940000000,
+          "application_deadline": "2027-03-31",
+          "career_outcomes": [
+            "Software Engineer",
+            "AI Engineer",
+            "Backend Developer",
+            "Solutions Architect"
+          ],
+          "program_status": "OPEN",
+          "match_score": 0.974,
+          "score_breakdown": {
+            "interest": 1.0,
+            "aptitude": 0.938,
+            "outcome": 0.96
+          },
+          "reasons": [
+            "Khớp lĩnh vực quan tâm: ai, data, software, technology",
+            "Năng lực tương thích 94% với yêu cầu của chương trình, nổi bật ở: Toán học, Lập trình",
+            "Tỷ lệ có việc làm 96%, lương khởi điểm trung bình 25 triệu VND/tháng",
+            "Học phí 940 triệu VND/năm, thời gian đào tạo 4 năm",
+            "Hợp tác đào tạo với Cornell University"
+          ]
+        },
+        {
+          "program_id": "BS-DSAI",
+          "name_vi": "Cử nhân Khoa học Dữ liệu và Trí tuệ Nhân tạo",
+          "name_en": "Bachelor of Science in Data Science and Artificial Intelligence",
+          "college": "CECS",
+          "degree_level": "Bachelor",
+          "duration_years": 4,
+          "tuition_per_year": 940000000,
+          "application_deadline": "2027-03-31",
+          "career_outcomes": [
+            "Data Scientist",
+            "ML Engineer",
+            "Research Engineer",
+            "Quant Analyst"
+          ],
+          "program_status": "OPEN",
+          "match_score": 0.709,
+          "score_breakdown": {
+            "interest": 0.6,
+            "aptitude": 0.812,
+            "outcome": 0.95
+          },
+          "reasons": [
+            "Khớp lĩnh vực quan tâm: ai, data, technology",
+            "Năng lực tương thích 81% với yêu cầu của chương trình, nổi bật ở: Toán học, Lập trình",
+            "Tỷ lệ có việc làm 95%, lương khởi điểm trung bình 27 triệu VND/tháng",
+            "Học phí 940 triệu VND/năm, thời gian đào tạo 4 năm",
+            "Hợp tác đào tạo với Cornell University"
+          ]
+        },
+        {
+          "program_id": "BS-BANA",
+          "name_vi": "Cử nhân Phân tích Kinh doanh",
+          "name_en": "Bachelor of Science in Business Analytics",
+          "college": "CBM",
+          "degree_level": "Bachelor",
+          "duration_years": 4,
+          "tuition_per_year": 900000000,
+          "application_deadline": "2027-04-15",
+          "career_outcomes": [
+            "Business Analyst",
+            "Data Analyst",
+            "Product Analyst",
+            "Financial Analyst"
+          ],
+          "program_status": "OPEN",
+          "match_score": 0.518,
+          "score_breakdown": {
+            "interest": 0.333,
+            "aptitude": 0.688,
+            "outcome": 0.94
+          },
+          "reasons": [
+            "Khớp lĩnh vực quan tâm: data, technology",
+            "Năng lực tương thích 69% với yêu cầu của chương trình, nổi bật ở: Toán học",
+            "Tỷ lệ có việc làm 94%, lương khởi điểm trung bình 21 triệu VND/tháng",
+            "Học phí 900 triệu VND/năm, thời gian đào tạo 4 năm",
+            "Hợp tác đào tạo với Cornell University"
+          ]
+        }
+      ]
+    },
+    "latency_ms": 1107.88
+  },
+  {
+    "step": 2,
+    "query": "Em là học sinh lớp 12, điểm trung bình THPT 9.2 và IELTS 7.5. Em học rất giỏi Toán, đam mê lập trình và trí tuệ nhân tạo, thích tự làm việc độc lập hơn là giao tiếp nhiều, và không thích thí nghiệm trong phòng lab. Gia đình em chi trả được tối đa 1 tỷ đồng học phí mỗi năm. Em nên chọn ngành nào ở VinUni? Hãy gợi ý 3 ngành phù hợp nhất kèm lý do cụ thể.",
+    "action_type": "FINAL_ANSWER",
+    "thought": "Tổng hợp kết quả từ MCP Server thành công.",
+    "output": "Gợi ý 3 chương trình phù hợp nhất: #1 Cử nhân Khoa học Máy tính (BS-CS, độ phù hợp 97%) - Khớp lĩnh vực quan tâm: ai, data, software, technology; #2 Cử nhân Khoa học Dữ liệu và Trí tuệ Nhân tạo (BS-DSAI, độ phù hợp 71%) - Khớp lĩnh vực quan tâm: ai, data, technology; #3 Cử nhân Phân tích Kinh doanh (BS-BANA, độ phù hợp 52%) - Khớp lĩnh vực quan tâm: data, technology.",
     "latency_ms": 10.0
   }
 ]

@@ -1,0 +1,830 @@
+{
+  "metadata": {
+    "source": "MOCK DATA - Dữ liệu giả lập phục vụ Lab K4 Day 03, KHÔNG phải dữ liệu tuyển sinh thật của VinUniversity",
+    "university": "VinUniversity (VinUni)",
+    "campus": "Vinhomes Ocean Park, Gia Lâm, Hà Nội",
+    "admission_cycle": "2026-2027",
+    "currency": "VND",
+    "generated_at": "2026-09-13",
+    "total_programs": 12,
+    "aptitude_scale": "1 = rất thấp, 5 = rất cao. Dùng để so khớp với hồ sơ ứng viên (khoảng cách càng nhỏ càng phù hợp).",
+    "entry_level_note": "'degree_level' = bằng cấp được trao; 'entry_level' = đối tượng tuyển sinh ('High School' hoặc 'Bachelor'). Lọc ứng viên theo 'entry_level' — ví dụ MD-MED trao bằng Doctoral nhưng tuyển thẳng từ THPT.",
+    "aptitude_keys": [
+      "math_intensity",
+      "coding_intensity",
+      "lab_work",
+      "people_interaction",
+      "creativity",
+      "business_acumen"
+    ],
+    "interest_vocabulary": [
+      "technology",
+      "ai",
+      "software",
+      "hardware",
+      "data",
+      "robotics",
+      "healthcare",
+      "patient_care",
+      "life_sciences",
+      "research",
+      "business",
+      "finance",
+      "marketing",
+      "entrepreneurship",
+      "management",
+      "hospitality",
+      "service_design",
+      "economics",
+      "psychology",
+      "social_impact",
+      "sustainability",
+      "design",
+      "communication"
+    ]
+  },
+  "colleges": {
+    "CECS": "College of Engineering and Computer Science",
+    "CHS": "College of Health Sciences",
+    "CBM": "College of Business and Management",
+    "CAS": "College of Arts and Sciences"
+  },
+  "scholarships": [
+    {
+      "scholarship_id": "SCH-ELITE",
+      "name_vi": "Học bổng Tài năng Xuất sắc",
+      "coverage_percent": 100,
+      "criteria": "Giải Quốc gia/Quốc tế, hoặc SAT >= 1500 và GPA >= 9.5",
+      "renewable": true,
+      "min_gpa_to_maintain": 3.6
+    },
+    {
+      "scholarship_id": "SCH-MERIT-70",
+      "name_vi": "Học bổng Khuyến khích Học tập",
+      "coverage_percent": 70,
+      "criteria": "GPA THPT >= 9.0 và IELTS >= 7.5",
+      "renewable": true,
+      "min_gpa_to_maintain": 3.4
+    },
+    {
+      "scholarship_id": "SCH-MERIT-50",
+      "name_vi": "Học bổng Thành tích",
+      "coverage_percent": 50,
+      "criteria": "GPA THPT >= 8.5 và IELTS >= 6.5",
+      "renewable": true,
+      "min_gpa_to_maintain": 3.2
+    },
+    {
+      "scholarship_id": "SCH-NEED",
+      "name_vi": "Hỗ trợ Tài chính theo Nhu cầu",
+      "coverage_percent": 40,
+      "criteria": "Chứng minh hoàn cảnh tài chính khó khăn, đạt chuẩn đầu vào",
+      "renewable": true,
+      "min_gpa_to_maintain": 2.8
+    }
+  ],
+  "programs": [
+    {
+      "program_id": "BS-CS",
+      "name_vi": "Cử nhân Khoa học Máy tính",
+      "name_en": "Bachelor of Science in Computer Science",
+      "degree_level": "Bachelor",
+      "entry_level": "High School",
+      "college": "CECS",
+      "duration_years": 4,
+      "total_credits": 132,
+      "partner_university": "Cornell University",
+      "language": "English",
+      "tuition_per_year": 940000000,
+      "interest_tags": [
+        "technology",
+        "software",
+        "ai",
+        "data"
+      ],
+      "aptitude_profile": {
+        "math_intensity": 5,
+        "coding_intensity": 5,
+        "lab_work": 2,
+        "people_interaction": 2,
+        "creativity": 4,
+        "business_acumen": 2
+      },
+      "admission": {
+        "high_school_gpa_min": 8.0,
+        "ielts_min": 6.5,
+        "sat_recommended": 1300,
+        "required_subjects": [
+          "Toán",
+          "Vật lý hoặc Tin học"
+        ],
+        "interview_required": true,
+        "portfolio_required": false
+      },
+      "intake_seats": 120,
+      "application_deadline": "2027-03-31",
+      "sample_course_ids": [
+        "COMP1010",
+        "COMP2030",
+        "COMP3050",
+        "COMP4900"
+      ],
+      "career_outcomes": [
+        "Software Engineer",
+        "AI Engineer",
+        "Backend Developer",
+        "Solutions Architect"
+      ],
+      "avg_starting_salary_month": 25000000,
+      "employment_rate_percent": 96,
+      "description_vi": "Chương trình cốt lõi về thuật toán, hệ thống và trí tuệ nhân tạo, gắn với dự án doanh nghiệp và học kỳ trao đổi tại đối tác Cornell.",
+      "status": "OPEN"
+    },
+    {
+      "program_id": "BS-DSAI",
+      "name_vi": "Cử nhân Khoa học Dữ liệu và Trí tuệ Nhân tạo",
+      "name_en": "Bachelor of Science in Data Science and Artificial Intelligence",
+      "degree_level": "Bachelor",
+      "entry_level": "High School",
+      "college": "CECS",
+      "duration_years": 4,
+      "total_credits": 130,
+      "partner_university": "Cornell University",
+      "language": "English",
+      "tuition_per_year": 940000000,
+      "interest_tags": [
+        "ai",
+        "data",
+        "research",
+        "technology"
+      ],
+      "aptitude_profile": {
+        "math_intensity": 5,
+        "coding_intensity": 4,
+        "lab_work": 3,
+        "people_interaction": 2,
+        "creativity": 3,
+        "business_acumen": 3
+      },
+      "admission": {
+        "high_school_gpa_min": 8.2,
+        "ielts_min": 6.5,
+        "sat_recommended": 1350,
+        "required_subjects": [
+          "Toán",
+          "Vật lý hoặc Tin học"
+        ],
+        "interview_required": true,
+        "portfolio_required": false
+      },
+      "intake_seats": 80,
+      "application_deadline": "2027-03-31",
+      "sample_course_ids": [
+        "MATH2010",
+        "MATH2020",
+        "COMP3070",
+        "COMP4090"
+      ],
+      "career_outcomes": [
+        "Data Scientist",
+        "ML Engineer",
+        "Research Engineer",
+        "Quant Analyst"
+      ],
+      "avg_starting_salary_month": 27000000,
+      "employment_rate_percent": 95,
+      "description_vi": "Kết hợp nền tảng thống kê, học máy và kỹ thuật hệ thống dữ liệu; sinh viên làm việc trên dữ liệu thật của các đối tác trong hệ sinh thái.",
+      "status": "OPEN"
+    },
+    {
+      "program_id": "BS-EE",
+      "name_vi": "Cử nhân Kỹ thuật Điện",
+      "name_en": "Bachelor of Science in Electrical Engineering",
+      "degree_level": "Bachelor",
+      "entry_level": "High School",
+      "college": "CECS",
+      "duration_years": 4,
+      "total_credits": 136,
+      "partner_university": "Cornell University",
+      "language": "English",
+      "tuition_per_year": 920000000,
+      "interest_tags": [
+        "hardware",
+        "technology",
+        "robotics",
+        "sustainability"
+      ],
+      "aptitude_profile": {
+        "math_intensity": 5,
+        "coding_intensity": 3,
+        "lab_work": 5,
+        "people_interaction": 2,
+        "creativity": 3,
+        "business_acumen": 2
+      },
+      "admission": {
+        "high_school_gpa_min": 8.0,
+        "ielts_min": 6.5,
+        "sat_recommended": 1300,
+        "required_subjects": [
+          "Toán",
+          "Vật lý"
+        ],
+        "interview_required": true,
+        "portfolio_required": false
+      },
+      "intake_seats": 70,
+      "application_deadline": "2027-03-31",
+      "sample_course_ids": [
+        "MATH2010",
+        "ENGR2100",
+        "COMP1010"
+      ],
+      "career_outcomes": [
+        "Embedded Engineer",
+        "Power Systems Engineer",
+        "IC Design Engineer",
+        "IoT Engineer"
+      ],
+      "avg_starting_salary_month": 22000000,
+      "employment_rate_percent": 93,
+      "description_vi": "Đào tạo kỹ thuật điện - điện tử với phòng lab hiện đại, định hướng vi mạch, năng lượng tái tạo và hệ thống nhúng.",
+      "status": "OPEN"
+    },
+    {
+      "program_id": "BS-ME",
+      "name_vi": "Cử nhân Kỹ thuật Cơ khí",
+      "name_en": "Bachelor of Science in Mechanical Engineering",
+      "degree_level": "Bachelor",
+      "entry_level": "High School",
+      "college": "CECS",
+      "duration_years": 4,
+      "total_credits": 136,
+      "partner_university": "Cornell University",
+      "language": "English",
+      "tuition_per_year": 920000000,
+      "interest_tags": [
+        "hardware",
+        "robotics",
+        "design",
+        "sustainability"
+      ],
+      "aptitude_profile": {
+        "math_intensity": 4,
+        "coding_intensity": 2,
+        "lab_work": 5,
+        "people_interaction": 2,
+        "creativity": 4,
+        "business_acumen": 2
+      },
+      "admission": {
+        "high_school_gpa_min": 7.8,
+        "ielts_min": 6.5,
+        "sat_recommended": 1250,
+        "required_subjects": [
+          "Toán",
+          "Vật lý"
+        ],
+        "interview_required": true,
+        "portfolio_required": false
+      },
+      "intake_seats": 60,
+      "application_deadline": "2027-03-31",
+      "sample_course_ids": [
+        "MATH2010",
+        "ENGR2100"
+      ],
+      "career_outcomes": [
+        "Mechanical Design Engineer",
+        "Robotics Engineer",
+        "Manufacturing Engineer",
+        "R&D Engineer"
+      ],
+      "avg_starting_salary_month": 20000000,
+      "employment_rate_percent": 91,
+      "description_vi": "Tập trung thiết kế cơ khí, tự động hóa và sản xuất thông minh, thực tập tại các nhà máy trong hệ sinh thái Vingroup.",
+      "status": "OPEN"
+    },
+    {
+      "program_id": "BBA-MGT",
+      "name_vi": "Cử nhân Quản trị Kinh doanh",
+      "name_en": "Bachelor of Business Administration",
+      "degree_level": "Bachelor",
+      "entry_level": "High School",
+      "college": "CBM",
+      "duration_years": 4,
+      "total_credits": 124,
+      "partner_university": "Cornell University",
+      "language": "English",
+      "tuition_per_year": 880000000,
+      "interest_tags": [
+        "business",
+        "management",
+        "marketing",
+        "entrepreneurship"
+      ],
+      "aptitude_profile": {
+        "math_intensity": 3,
+        "coding_intensity": 1,
+        "lab_work": 1,
+        "people_interaction": 5,
+        "creativity": 4,
+        "business_acumen": 5
+      },
+      "admission": {
+        "high_school_gpa_min": 7.5,
+        "ielts_min": 6.5,
+        "sat_recommended": 1250,
+        "required_subjects": [
+          "Toán"
+        ],
+        "interview_required": true,
+        "portfolio_required": false
+      },
+      "intake_seats": 150,
+      "application_deadline": "2027-04-15",
+      "sample_course_ids": [
+        "BUSA1200",
+        "CORE2200",
+        "MATH2020"
+      ],
+      "career_outcomes": [
+        "Management Trainee",
+        "Brand Manager",
+        "Consultant",
+        "Startup Founder"
+      ],
+      "avg_starting_salary_month": 18000000,
+      "employment_rate_percent": 92,
+      "description_vi": "Chương trình quản trị toàn diện với các chuyên ngành Marketing, Tài chính và Khởi nghiệp; nhiều dự án tư vấn doanh nghiệp thực tế.",
+      "status": "OPEN"
+    },
+    {
+      "program_id": "BS-BANA",
+      "name_vi": "Cử nhân Phân tích Kinh doanh",
+      "name_en": "Bachelor of Science in Business Analytics",
+      "degree_level": "Bachelor",
+      "entry_level": "High School",
+      "college": "CBM",
+      "duration_years": 4,
+      "total_credits": 126,
+      "partner_university": "Cornell University",
+      "language": "English",
+      "tuition_per_year": 900000000,
+      "interest_tags": [
+        "data",
+        "business",
+        "finance",
+        "technology"
+      ],
+      "aptitude_profile": {
+        "math_intensity": 4,
+        "coding_intensity": 3,
+        "lab_work": 1,
+        "people_interaction": 4,
+        "creativity": 3,
+        "business_acumen": 5
+      },
+      "admission": {
+        "high_school_gpa_min": 8.0,
+        "ielts_min": 6.5,
+        "sat_recommended": 1300,
+        "required_subjects": [
+          "Toán"
+        ],
+        "interview_required": true,
+        "portfolio_required": false
+      },
+      "intake_seats": 70,
+      "application_deadline": "2027-04-15",
+      "sample_course_ids": [
+        "MATH2020",
+        "BUSA3400",
+        "COMP2040"
+      ],
+      "career_outcomes": [
+        "Business Analyst",
+        "Data Analyst",
+        "Product Analyst",
+        "Financial Analyst"
+      ],
+      "avg_starting_salary_month": 21000000,
+      "employment_rate_percent": 94,
+      "description_vi": "Cầu nối giữa kinh doanh và dữ liệu: mô hình hóa, trực quan hóa và ra quyết định dựa trên dữ liệu cho doanh nghiệp.",
+      "status": "OPEN"
+    },
+    {
+      "program_id": "BS-HOSP",
+      "name_vi": "Cử nhân Quản trị Khách sạn và Du lịch",
+      "name_en": "Bachelor of Science in Hospitality Management",
+      "degree_level": "Bachelor",
+      "entry_level": "High School",
+      "college": "CBM",
+      "duration_years": 4,
+      "total_credits": 122,
+      "partner_university": "Cornell University",
+      "language": "English",
+      "tuition_per_year": 860000000,
+      "interest_tags": [
+        "hospitality",
+        "service_design",
+        "business",
+        "communication"
+      ],
+      "aptitude_profile": {
+        "math_intensity": 2,
+        "coding_intensity": 1,
+        "lab_work": 2,
+        "people_interaction": 5,
+        "creativity": 4,
+        "business_acumen": 4
+      },
+      "admission": {
+        "high_school_gpa_min": 7.5,
+        "ielts_min": 6.5,
+        "sat_recommended": 1200,
+        "required_subjects": [],
+        "interview_required": true,
+        "portfolio_required": false
+      },
+      "intake_seats": 60,
+      "application_deadline": "2027-04-15",
+      "sample_course_ids": [
+        "BUSA1200",
+        "CORE1100"
+      ],
+      "career_outcomes": [
+        "Hotel Operations Manager",
+        "Guest Experience Lead",
+        "Event Manager",
+        "F&B Manager"
+      ],
+      "avg_starting_salary_month": 16000000,
+      "employment_rate_percent": 90,
+      "description_vi": "Đào tạo quản trị dịch vụ cao cấp với kỳ thực tập bắt buộc tại các khu nghỉ dưỡng và khách sạn 5 sao đối tác.",
+      "status": "OPEN"
+    },
+    {
+      "program_id": "MD-MED",
+      "name_vi": "Bác sĩ Y khoa",
+      "name_en": "Doctor of Medicine",
+      "degree_level": "Doctoral",
+      "entry_level": "High School",
+      "college": "CHS",
+      "duration_years": 6,
+      "total_credits": 210,
+      "partner_university": "University of Pennsylvania",
+      "language": "English",
+      "tuition_per_year": 1500000000,
+      "interest_tags": [
+        "healthcare",
+        "patient_care",
+        "life_sciences",
+        "research"
+      ],
+      "aptitude_profile": {
+        "math_intensity": 3,
+        "coding_intensity": 1,
+        "lab_work": 5,
+        "people_interaction": 5,
+        "creativity": 2,
+        "business_acumen": 1
+      },
+      "admission": {
+        "high_school_gpa_min": 9.0,
+        "ielts_min": 7.0,
+        "sat_recommended": 1400,
+        "required_subjects": [
+          "Sinh học",
+          "Hóa học",
+          "Toán"
+        ],
+        "interview_required": true,
+        "portfolio_required": false
+      },
+      "intake_seats": 50,
+      "application_deadline": "2027-02-28",
+      "sample_course_ids": [
+        "MED1500",
+        "NURS2300"
+      ],
+      "career_outcomes": [
+        "Bác sĩ Đa khoa",
+        "Bác sĩ Nội trú",
+        "Nhà nghiên cứu Y sinh"
+      ],
+      "avg_starting_salary_month": 30000000,
+      "employment_rate_percent": 99,
+      "description_vi": "Chương trình y khoa 6 năm theo chuẩn Penn Medicine, đào tạo lâm sàng tại Vinmec ngay từ năm thứ nhất.",
+      "status": "OPEN"
+    },
+    {
+      "program_id": "BS-NURS",
+      "name_vi": "Cử nhân Điều dưỡng",
+      "name_en": "Bachelor of Science in Nursing",
+      "degree_level": "Bachelor",
+      "entry_level": "High School",
+      "college": "CHS",
+      "duration_years": 4,
+      "total_credits": 140,
+      "partner_university": "University of Pennsylvania",
+      "language": "English",
+      "tuition_per_year": 800000000,
+      "interest_tags": [
+        "healthcare",
+        "patient_care",
+        "social_impact",
+        "life_sciences"
+      ],
+      "aptitude_profile": {
+        "math_intensity": 2,
+        "coding_intensity": 1,
+        "lab_work": 5,
+        "people_interaction": 5,
+        "creativity": 2,
+        "business_acumen": 1
+      },
+      "admission": {
+        "high_school_gpa_min": 7.5,
+        "ielts_min": 6.5,
+        "sat_recommended": 1150,
+        "required_subjects": [
+          "Sinh học",
+          "Hóa học"
+        ],
+        "interview_required": true,
+        "portfolio_required": false
+      },
+      "intake_seats": 60,
+      "application_deadline": "2027-03-15",
+      "sample_course_ids": [
+        "MED1500",
+        "NURS2300"
+      ],
+      "career_outcomes": [
+        "Điều dưỡng viên",
+        "Điều dưỡng Chuyên khoa",
+        "Quản lý Điều dưỡng"
+      ],
+      "avg_starting_salary_month": 15000000,
+      "employment_rate_percent": 98,
+      "description_vi": "Đào tạo điều dưỡng chuẩn quốc tế với trung tâm mô phỏng lâm sàng và cơ hội thi chứng chỉ hành nghề nước ngoài.",
+      "status": "OPEN"
+    },
+    {
+      "program_id": "BA-PSY",
+      "name_vi": "Cử nhân Tâm lý học",
+      "name_en": "Bachelor of Arts in Psychology",
+      "degree_level": "Bachelor",
+      "entry_level": "High School",
+      "college": "CAS",
+      "duration_years": 4,
+      "total_credits": 120,
+      "partner_university": null,
+      "language": "English",
+      "tuition_per_year": 780000000,
+      "interest_tags": [
+        "psychology",
+        "research",
+        "social_impact",
+        "communication"
+      ],
+      "aptitude_profile": {
+        "math_intensity": 3,
+        "coding_intensity": 1,
+        "lab_work": 3,
+        "people_interaction": 5,
+        "creativity": 4,
+        "business_acumen": 2
+      },
+      "admission": {
+        "high_school_gpa_min": 7.5,
+        "ielts_min": 6.5,
+        "sat_recommended": 1200,
+        "required_subjects": [],
+        "interview_required": true,
+        "portfolio_required": false
+      },
+      "intake_seats": 45,
+      "application_deadline": "2027-04-15",
+      "sample_course_ids": [
+        "CORE1100",
+        "MATH2020"
+      ],
+      "career_outcomes": [
+        "Chuyên viên Tâm lý học đường",
+        "HR Specialist",
+        "UX Researcher",
+        "Nghiên cứu viên"
+      ],
+      "avg_starting_salary_month": 14000000,
+      "employment_rate_percent": 87,
+      "description_vi": "Nền tảng tâm lý học hành vi và nhận thức, kết hợp phương pháp nghiên cứu định lượng và thực hành tham vấn.",
+      "status": "OPEN"
+    },
+    {
+      "program_id": "MSC-CS",
+      "name_vi": "Thạc sĩ Khoa học Máy tính",
+      "name_en": "Master of Science in Computer Science",
+      "degree_level": "Master",
+      "entry_level": "Bachelor",
+      "college": "CECS",
+      "duration_years": 2,
+      "total_credits": 45,
+      "partner_university": "Cornell University",
+      "language": "English",
+      "tuition_per_year": 700000000,
+      "interest_tags": [
+        "ai",
+        "software",
+        "research",
+        "data"
+      ],
+      "aptitude_profile": {
+        "math_intensity": 5,
+        "coding_intensity": 5,
+        "lab_work": 3,
+        "people_interaction": 2,
+        "creativity": 4,
+        "business_acumen": 2
+      },
+      "admission": {
+        "bachelor_gpa_min": 3.0,
+        "ielts_min": 6.5,
+        "required_background": "Bằng cử nhân ngành CNTT hoặc liên quan",
+        "interview_required": true,
+        "portfolio_required": true
+      },
+      "intake_seats": 40,
+      "application_deadline": "2027-05-31",
+      "sample_course_ids": [
+        "COMP3070",
+        "COMP4090"
+      ],
+      "career_outcomes": [
+        "Senior ML Engineer",
+        "Research Scientist",
+        "Tech Lead"
+      ],
+      "avg_starting_salary_month": 45000000,
+      "employment_rate_percent": 97,
+      "description_vi": "Chương trình sau đại học định hướng nghiên cứu ứng dụng về AI, hệ thống phân tán và kỹ thuật phần mềm hiện đại.",
+      "status": "OPEN"
+    },
+    {
+      "program_id": "MBA-EXE",
+      "name_vi": "Thạc sĩ Quản trị Kinh doanh",
+      "name_en": "Master of Business Administration",
+      "degree_level": "Master",
+      "entry_level": "Bachelor",
+      "college": "CBM",
+      "duration_years": 2,
+      "total_credits": 48,
+      "partner_university": "Cornell University",
+      "language": "English",
+      "tuition_per_year": 750000000,
+      "interest_tags": [
+        "business",
+        "management",
+        "entrepreneurship",
+        "finance"
+      ],
+      "aptitude_profile": {
+        "math_intensity": 3,
+        "coding_intensity": 1,
+        "lab_work": 1,
+        "people_interaction": 5,
+        "creativity": 4,
+        "business_acumen": 5
+      },
+      "admission": {
+        "bachelor_gpa_min": 2.8,
+        "ielts_min": 6.5,
+        "required_background": "Tối thiểu 3 năm kinh nghiệm quản lý",
+        "interview_required": true,
+        "portfolio_required": false
+      },
+      "intake_seats": 50,
+      "application_deadline": "2027-06-30",
+      "sample_course_ids": [
+        "BUSA1200",
+        "BUSA3400"
+      ],
+      "career_outcomes": [
+        "Business Director",
+        "Strategy Manager",
+        "Entrepreneur"
+      ],
+      "avg_starting_salary_month": 60000000,
+      "employment_rate_percent": 96,
+      "description_vi": "MBA cuối tuần dành cho nhà quản lý đang đi làm, học cùng giảng viên Cornell và mạng lưới lãnh đạo doanh nghiệp Việt Nam.",
+      "status": "WAITLIST"
+    }
+  ],
+  "sample_prospect_profiles": [
+    {
+      "profile_id": "P01",
+      "note": "Học sinh giỏi Toán - Tin, muốn làm AI. Kỳ vọng: BS-CS hoặc BS-DSAI.",
+      "interests": [
+        "ai",
+        "software",
+        "data"
+      ],
+      "aptitude_profile": {
+        "math_intensity": 5,
+        "coding_intensity": 5,
+        "lab_work": 2,
+        "people_interaction": 2,
+        "creativity": 4,
+        "business_acumen": 2
+      },
+      "high_school_gpa": 9.2,
+      "ielts": 7.5,
+      "budget_per_year": 1000000000,
+      "entry_level": "High School"
+    },
+    {
+      "profile_id": "P02",
+      "note": "Thích chăm sóc người khác, học tốt Sinh - Hóa. Kỳ vọng: MD-MED hoặc BS-NURS.",
+      "interests": [
+        "healthcare",
+        "patient_care",
+        "life_sciences"
+      ],
+      "aptitude_profile": {
+        "math_intensity": 3,
+        "coding_intensity": 1,
+        "lab_work": 5,
+        "people_interaction": 5,
+        "creativity": 2,
+        "business_acumen": 1
+      },
+      "high_school_gpa": 9.1,
+      "ielts": 7.0,
+      "budget_per_year": 1600000000,
+      "entry_level": "High School"
+    },
+    {
+      "profile_id": "P03",
+      "note": "Hướng ngoại, muốn khởi nghiệp, ngại Toán nặng. Kỳ vọng: BBA-MGT hoặc BS-HOSP.",
+      "interests": [
+        "entrepreneurship",
+        "business",
+        "communication"
+      ],
+      "aptitude_profile": {
+        "math_intensity": 2,
+        "coding_intensity": 1,
+        "lab_work": 1,
+        "people_interaction": 5,
+        "creativity": 5,
+        "business_acumen": 5
+      },
+      "high_school_gpa": 7.9,
+      "ielts": 6.5,
+      "budget_per_year": 900000000,
+      "entry_level": "High School"
+    },
+    {
+      "profile_id": "P04",
+      "note": "EDGE CASE - Ngân sách thấp và GPA dưới chuẩn mọi ngành. Kỳ vọng: không có kết quả phù hợp, agent phải từ chối lịch sự.",
+      "interests": [
+        "ai",
+        "data"
+      ],
+      "aptitude_profile": {
+        "math_intensity": 4,
+        "coding_intensity": 4,
+        "lab_work": 2,
+        "people_interaction": 2,
+        "creativity": 3,
+        "business_acumen": 2
+      },
+      "high_school_gpa": 6.5,
+      "ielts": 5.0,
+      "budget_per_year": 300000000,
+      "entry_level": "High School"
+    },
+    {
+      "profile_id": "P05",
+      "note": "Đi làm 5 năm, muốn học sau đại học buổi tối. Kỳ vọng: MBA-EXE (đang WAITLIST) hoặc MSC-CS.",
+      "interests": [
+        "management",
+        "business",
+        "finance"
+      ],
+      "aptitude_profile": {
+        "math_intensity": 3,
+        "coding_intensity": 2,
+        "lab_work": 1,
+        "people_interaction": 5,
+        "creativity": 3,
+        "business_acumen": 5
+      },
+      "bachelor_gpa": 3.3,
+      "ielts": 7.0,
+      "budget_per_year": 800000000,
+      "entry_level": "Bachelor"
+    }
+  ]
+}

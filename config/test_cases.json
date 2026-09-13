@@ -1,0 +1,51 @@
+[
+  {
+    "id": "TC01",
+    "type": "direct_query",
+    "question": "Chào bạn, bạn có thể giới thiệu quy chế học vụ cơ bản của Đại học VinUni không?",
+    "expected_behavior": "Chatbot trả lời trực tiếp từ System Prompt, không cần gọi bất kỳ Tool nào.",
+    "complexity": "Low"
+  },
+  {
+    "id": "TC02",
+    "type": "single_tool_query",
+    "question": "Hãy tra cứu thông tin học vụ của sinh viên SV2026001.",
+    "expected_behavior": "Agent nhận diện nhu cầu tra cứu, tự động phát sinh Tool Call 'academic_query' với mã SV2026001.",
+    "complexity": "Medium"
+  },
+  {
+    "id": "TC03",
+    "type": "appointment_booking",
+    "question": "Hãy đặt lịch hẹn tư vấn học vụ cho sinh viên SV2026001.",
+    "expected_behavior": "Agent tự động phát sinh Tool Call 'schedule_appointment' với đúng thời gian và thông tin sinh viên.",
+    "complexity": "Medium"
+  },
+  {
+    "id": "TC04",
+    "type": "multi_step_reasoning",
+    "question": "Hãy tra cứu thông tin học vụ của sinh viên SV2026001, tìm kiếm thông tin cố vấn học tập của sinh viên và đặt lịch hẹn với cố vấn này cho sinh viên vào '14:00 15/09/2026'.",
+    "expected_behavior": "Agent thực hiện chuỗi suy luận ReAct: Tra cứu thông tin học vụ của sinh viên, kế tiếp tìm kiếm thông tin cố vấn học tập, sau đó Agent tự động phát sinh Tool Call 'schedule_appointment' với đúng thời gian và thông tin sinh viên.",
+    "complexity": "High"
+  },
+  {
+    "id": "TC05",
+    "type": "edge_case_handling",
+    "question": "Hãy tra cứu thông tin học vụ của sinh viên SV9999999.",
+    "expected_behavior": "Agent nhận kết quả NOT_FOUND từ Tool và đưa ra phản hồi lịch sự, chính xác không bịa đặt dữ liệu.",
+    "complexity": "Medium"
+  },
+  {
+    "id": "TC06",
+    "type": "cross_tool_reasoning",
+    "question": "Hãy tra cứu thông tin học vụ của sinh viên SV2026002, sau đó liệt kê các học phần trong học kỳ Fall 2026 do chính cố vấn học tập của sinh viên này phụ trách, và cho biết học phần nào đã hết chỗ đăng ký.",
+    "expected_behavior": "Agent thực hiện chuỗi ReAct bắc cầu giữa hai nguồn dữ liệu: (1) Tool Call 'academic_query' với student_id='SV2026002' để lấy tên cố vấn là 'TS. Lê Thị B'; (2) dùng chính tên cố vấn vừa thu được làm tham số cho Tool Call 'course_lookup' với instructor='TS. Lê Thị B'; (3) tổng hợp kết quả COMP2030 (Cấu trúc Dữ liệu và Giải thuật, status FULL) và COMP3070 (Học máy, status WAITLIST), nêu rõ COMP2030 đã hết chỗ. Agent không được tự suy đoán tên cố vấn hay danh sách học phần khi chưa có Observation từ Tool.",
+    "complexity": "High"
+  },
+  {
+    "id": "TC07",
+    "type": "profile_based_recommendation",
+    "question": "Em là học sinh lớp 12, điểm trung bình THPT 9.2 và IELTS 7.5. Em học rất giỏi Toán, đam mê lập trình và trí tuệ nhân tạo, thích tự làm việc độc lập hơn là giao tiếp nhiều, và không thích thí nghiệm trong phòng lab. Gia đình em chi trả được tối đa 1 tỷ đồng học phí mỗi năm. Em nên chọn ngành nào ở VinUni? Hãy gợi ý 3 ngành phù hợp nhất kèm lý do cụ thể.",
+    "expected_behavior": "Agent trích xuất hồ sơ định tính thành tham số có cấu trúc cho Tool Call 'program_recommend': interests=['ai','software','data'], aptitude_profile với math_intensity/coding_intensity ở mức cao (4-5) và lab_work/people_interaction ở mức thấp (1-2), entry_level='High School', high_school_gpa=9.2, ielts=7.5, budget_per_year=1000000000, top_n=3. Kỳ vọng BS-CS xếp hạng #1, kèm BS-DSAI trong danh sách gợi ý. Agent phải trình bày lý do dựa trên trường 'reasons' do Tool trả về (mức độ khớp lĩnh vực, độ tương thích năng lực, học phí, triển vọng việc làm), tuyệt đối không tự bịa thêm ngành học hay số liệu không có trong Observation.",
+    "complexity": "High"
+  }
+]
