@@ -2,7 +2,7 @@
 
 > **Họ và Tên Học viên:** Đinh Lệnh Tiến Anh  
 > **Mã Sinh Viên / Mã Học viên:** 2A202602928  
-> **Chủ đề Lựa chọn:** Gợi ý 1.1 — *Trợ lý Học vụ & Tra cứu Lịch thi VinUni* (tra cứu điểm GPA, lịch thi và đặt lịch tư vấn học vụ với Cố vấn)  
+> **Chủ đề Lựa chọn:** Gợi ý 1.1 — *Trợ lý Học vụ & Tra cứu Lịch thi VinUni*   
 
 ---
 
